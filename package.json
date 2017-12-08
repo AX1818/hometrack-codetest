@@ -10,9 +10,8 @@
   "author": "Austin Xie <austin.xie1818@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "JSONStream": "^1.3.1"
-  },
-  "devDependencies": {
+    "JSONStream": "^1.3.1",
     "nodemon": "^1.12.5"
-  }
+  },
+  "devDependencies": {}
 }
