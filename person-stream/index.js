@@ -36,7 +36,7 @@ function getPersonStream (res) {
   })
   .on('end', () => {
     if(!validPayload) {
-      sendErrorResponse(res)
+      sendErrorResponse(res);
     }
   })
   .on('error', () => sendErrorResponse(res));
